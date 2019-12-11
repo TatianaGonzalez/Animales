@@ -36,3 +36,50 @@ a:hover{
 img:hover{
     width: 320px;
 }
+.texto{
+    display: block;
+}
+
+.cuadro1{
+    width: 10%;
+    height: 10%;
+    border: 2px solid black;
+    padding: 2%;
+    background-color: rgba(175, 37, 101);
+    margin: 5%;
+
+    position: fixed;
+    top: 30%;
+}
+
+.cuadro2{
+    width: 50%;
+    height: 10%;
+    border: 2px solid black;
+    padding: 2%;
+    background-color: rebeccapurple;
+    margin: 5%;
+
+    position: relative;
+    top:20% ;
+}
+.cuadro3{
+    width: 40%;
+    height: 20%;
+    border: 2px solid black;
+    padding: 2%;
+    background-color: pink;
+    margin: 5%;
+
+    position: static;
+}
+.cuadro4{
+    width: 20%;
+    height: 10%;
+    border: 2px solid black;
+    padding: 2%;
+    background-color: rgba(139, 146, 35);
+    margin: 5%;
+
+    position: absolute;
+}
