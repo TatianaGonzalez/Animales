@@ -62,3 +62,13 @@ body{
     text-align: center;
 }
 
+#miSuperTitulo{
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.imagenesIntro:hover{
+    transition-duration: 1.0s;
+    transition-timing-function: ease-in-out;
+    transform: matrix(5,2,1,10,8,2);
+    filter: blur(100%);
+}
